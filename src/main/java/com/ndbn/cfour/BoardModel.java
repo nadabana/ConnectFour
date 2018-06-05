@@ -16,6 +16,7 @@ public class BoardModel {
         totalMovesPlayed = 0;
     }
 
+    //get the current board status
     public int[][] getBoard() {
         return board;
     }
