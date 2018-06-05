@@ -1,7 +1,7 @@
 package com.ndbn.cfour;
 
 public class BoardView {
-    public void showBoard(int[][] board) {
+    public void displayBoard(int[][] board) {
         for(int i = 0; i < board.length; i++) {
             for(int j = 0; j < board[0].length; j++) {
                 if (board[i][j] == 0) {
